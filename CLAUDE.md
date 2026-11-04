@@ -33,7 +33,7 @@ src/
   assets/
     paper-background.png  # 古风 ink-painting body background (4君子 inset)
   data/
-    poems.json            # Bundled dataset (805 sentences, 411 tang + 394 song)
+    poems.json            # Bundled dataset (699 poems / 3,606 sentences; 345 tang + 354 song)
     index.ts              # Typed import of poems.json
     sentenceIndex.ts      # Flat { poemId, lineId, text } index, frozen
     commonChars.ts        # Top-40 frequency-ranked characters
